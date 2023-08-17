@@ -1,7 +1,6 @@
-import './App.css'
 
 function App() {
-  
+
   return <h2>Estudando React com TalwindCss</h2>
 }
 
