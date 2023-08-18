@@ -1,5 +1,5 @@
+import {MoonIcon} from "@heroicons/react/24/solid"
 import React from 'react'
-
 
 //Para usar responsividade em max-width e min-width utilizar o seguinte utilitários max-[] ou min-[]
 
@@ -18,7 +18,10 @@ export const Header = () => {
                 </li>
                 <li className='font-normal text-lg text-white'>
                     React Native
-                </li>
+                </li> 
+                <button>
+                  <MoonIcon  className="h-6 w-6"/>
+                </button>
             </ul>
         </nav>
     )
