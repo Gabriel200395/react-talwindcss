@@ -1,7 +1,6 @@
+import { Header } from "./components/header"
 
 function App() {
-
-  return <h2>Estudando React com TalwindCss</h2>
+  return <Header />
 }
-
 export default App
