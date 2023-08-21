@@ -6,18 +6,18 @@ import ThemeFile from "./themeFile"
 
 export const Header = () => {
     return (
-        <nav className=" bg-slate-50 dark:bg-black flex justify-between items-center h-20 px-10 flex-wrap max-[500px]:justify-center">
-            <h2 className='font-bold text-black text-2xl dark:text-white'>
+        <nav className="bg-alura-200 dark:bg-dark-200 flex justify-between items-center h-20 px-10 flex-wrap max-[500px]:justify-center">
+            <h2 className='font-bold text-2xl text-white'>
                 Talwindcss
             </h2>
             <ul className='list-none flex space-x-2'>
-                <li className='font-normal text-lg  text-black dark:text-white'>
+                <li className='font-normal text-lg  text-white'>
                     React
                 </li>
-                <li className='font-normal text-lg text-black dark:text-white'>
+                <li className='font-normal text-lg text-white'>
                     Next JS
                 </li>
-                <li className='font-normal text-lg text-black dark:text-white'>
+                <li className='font-normal text-lg text-white'>
                     React Native
                 </li>
                <ThemeFile />

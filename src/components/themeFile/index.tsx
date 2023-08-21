@@ -15,8 +15,8 @@ export default function ThemeFile() {
 
     return (
         <div className="flex">
-            <MoonIcon className="h-6 w-6 text-black dark:text-white dark:hidden cursor-pointer" onClick={toogle} />
-            <SunIcon className="h-6 w-6 text-black hidden dark:text-white dark:block cursor-pointer" onClick={toogle} />
+            <MoonIcon className="h-6 w-6  text-white dark:hidden cursor-pointer" onClick={toogle} />
+            <SunIcon className="h-6 w-6 hidden text-white dark:block cursor-pointer" onClick={toogle} />
         </div>
     )
 }
