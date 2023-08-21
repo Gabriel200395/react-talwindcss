@@ -1,6 +1,10 @@
-import { Header } from "./components/header"
-
+import { Header, ArticlesList } from './components'
 function App() {
-  return <Header />
+  return (
+    <>
+      <Header />
+      <ArticlesList />
+    </>
+  )
 }
 export default App

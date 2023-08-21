@@ -1,6 +1,6 @@
 import { MoonIcon, SunIcon } from "@heroicons/react/24/solid"
 import React from 'react'
-import ThemeFile from "./themeFile"
+import ThemeFile from "../themeFile"
 
 //responsividade em max-width e min-width utilizar o seguinte utilitários max-[] ou min-[]
 
