@@ -16,7 +16,11 @@ export default {
             100: '#167BF7',
             200: '#051933'
         }
-    }
+      }, 
+
+      screens: {
+        '10xl': '2000px'
+      }, 
     }
 },
   plugins: [],
